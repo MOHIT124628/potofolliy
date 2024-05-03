@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Trirong", serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8EeBBMyTHZbAICkM426TENba0lW9iWvHrKtLfqzOsD9UOQGVGKlknZlQBBL_cQz8f0VU&usqp=CAU");
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+}
+
+#cen {
+    display: flex;
+    flex-direction: column; /* Added to make children stack vertically */
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSms1xYt3j0tCuNsAjfzutv-cmsujTu_qPauEUYolQbV3YRF2s_1ugRXebFgWOx3U41168&usqp=CAU");
+    margin: 10px 50px 5px; /* Combined margin shorthand */
+    padding: 20px; /* Adjusted padding */
+    border-radius: 80px;
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+}
+
+#form { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:whitesmoke;
+    box-shadow: 0 5px 15px rgb(162, 80, 32);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-radius: 80px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px; /* Added margin to separate from the next content */
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 15px;
+    position: relative;
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+
+}
+#navbar li:hover{
+    transform: translateY(-3px); /* Move the button up */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+    transition: 0.2s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: orangered;
+}
+
+#navbar li a.active::after,/*pesodu effect*/
+#navbar li a:hover::after{
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: limegreen;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+}
+#cen1{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    border-radius: 800px;
+    padding: 200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-image: url("https://signature.freefire-name.com/img.php?f=5&t=Portfolio");
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;   
+}
+#cen1 h1{
+        font-weight: 900px;
+    font-size:xx-large; 
+}
+#h1e{
+    margin-left: 450px;
+}
+#cen2{
+    display: flex;
+    flex-direction: column; /* Added to make children stack vertically */
+    align-items: center;
+    border-radius: 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/492/482/non_2x/abstract-curve-pattern-in-black-and-white-gradient-color-creative-stripe-background-for-brochure-template-booklet-flyer-poster-vector.jpg");
+    margin: 5px 50px; /* Combined margin shorthand */
+    padding: 5px; /* Adjusted padding */
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+footer .follow{
+    margin-top: 20px;
+    text-align: center;
+}
+footer .follow i{
+    color: white;
+    padding-right: 40px;
+    cursor:pointer;
+    text-align: center;
+    font-size: 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+footer .follow i:hover{
+    transform: translateY(-5px);
+}
+
+#cen3{
+    display: flex;
+    flex-direction: column; /* Added to make children stack vertically */
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSms1xYt3j0tCuNsAjfzutv-cmsujTu_qPauEUYolQbV3YRF2s_1ugRXebFgWOx3U41168&usqp=CAU");
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px; /* Adjusted padding */
+    border-radius: 500px;
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+}
+#form1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:whitesmoke;
+    box-shadow: 0 5px 15px rgb(162, 80, 32);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-radius: 150px; 
+}
+#ull {
+    display: flex;
+    list-style: none;
+}
+
+#ull li {
+    display: inline-block;
+}
+
+#nav-img {
+    background-color: whitesmoke;
+    border-radius: 50px;
+    padding: 200px; /* Adjust padding as needed */
+    margin: 30px;
+    margin-left: 200px; /* Adjust margin as needed */
+    background-image: url("https://signature.freefire-name.com/img.php?f=5&t=Portfolio");
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+#nav-img:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1;/*Ensure it's above other elements */
+}
+#nav-text {
+    background-color: wheat;
+    border-radius: 50px;
+    padding: 50px; /* Adjust padding as needed */
+    margin-top: 50px;
+    margin-left: 20px; /* Adjust margin as needed */
+    width: 600px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+#nav-text:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1;/*Ensure it's above other elements */
+}
+#stt{
+    text-decoration: none; 
+    color: green;
+}
+#stt:hover{
+    color: orange;
+}
+.fe-box {
+    width: 45%; /* Adjust as needed */
+}
+#nav_gr-text,
+#nav_gr-text1 {
+    display: inline-block; 
+    vertical-align: top;
+    position: relative; 
+    background-color: wheat;
+    border-radius: 50px;
+    padding: 50px; 
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.image-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 90px;
+    margin-top: -10px;
+}
+.image-container img {
+    max-width: 150%;
+    border-radius: 100px;
+}
+#nav_gr-text:hover,
+#nav_gr-text1:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+#nav_gr-text2{
+    display: block;
+    position: relative; /* Display them inline */
+    background-color: wheat;
+    border-radius: 50px;
+    padding: 50px; 
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    margin: 20px auto;
+}
+.image1-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: -1px;
+}
+#nav_gr-text2 img {
+    max-width: 150%;
+    border-radius: 100px; /* Adjust the radius value as needed */
+}
+#nav_gr-text2:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1;/*Ensure it's above other elements */
+}
+#nav_gr1-text{
+    background-color: red;
+    border-radius: 50px;
+    padding: 150px; /* Adjust padding as needed */
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: -150px; /* Adjust margin as needed */
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+}
+#nav_gr1-text:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1;/*Ensure it's above other elements */
+}
+#ach-ull{
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+#ach-ull li{
+    display: inline-block; /* Display list items inline */
+    vertical-align: top;
+}
+.fe-box1{
+    background-color: wheat;
+    border-radius: 50px;
+    padding: 20px; /* Adjust padding as needed */
+    margin: 30px;
+    margin-left: 70px; /* Adjust margin as needed */
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+    width: 600px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.fe-box1:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    z-index: 1;/*Ensure it's above other elements */
+}
+#form-details{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    width: 60%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow:20px 10px 20px 10px #088178;
+}
+#form-details form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+}
+#con-but {
+    background-color: #088178;
+    color: #fff;
+    
+}
+#con-but:hover{
+    background-color: olive;
+}
+#con-cen{
+    display: flex;
+    flex-direction: column; /* Added to make children stack vertically */
+    align-items: center;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1935772144/display_1500/stock-vector-smooth-vector-transition-from-black-to-white-with-straight-broken-lines-modern-vector-background-1935772144.jpg");
+    margin: 10px 50px 5px; /* Combined margin shorthand */
+    padding: 20px; /* Adjusted padding */
+    border-radius: 80px;
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center;
+}
